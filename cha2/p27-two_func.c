@@ -1,5 +1,5 @@
 # include<stdio.h>
-void butler(void);
+void butler(void); //
 
 int main(){
     printf("I will summon the butler function.\n");
@@ -9,7 +9,7 @@ int main(){
     return 0;
 }
 
-void butler(void) /*zhushi*/
+void butler(void) /*函数编写*/
 {
     printf("You rang, sir?\n");
     }
