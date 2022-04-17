@@ -26,8 +26,8 @@ int main(int argc, char *argv [])
     exit(EXIT_FAILURE);
   }
 
-  // set out
-  strncpy(name, argv[1], LEN - 5); // copy filename
+  // 设置退出
+  strncpy(name, argv[1], LEN - 5); // 复制文件名字
   name[LEN - 5] = '\0';
   strcat(name, ".red");
   if ((out = fopen(name, "w")) == NULL)
